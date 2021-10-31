@@ -2,6 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Layout from "../components/layout";
+
+import logo from "../public/assets/img/hero-img.png"
+
+
 export default function Home() {
   return (
     <>
@@ -26,10 +30,14 @@ export default function Home() {
                 className="col-lg-6 order-1 order-lg-2 hero-img"
                 data-aos="fade-left"
               >
-                <img
+                <Image
                   src="/assets/img/hero-img.png"
                   className="img-fluid"
-                  alt=""
+                  alt="Picture of the author"
+                  // layout='fill'
+
+                  height='500px'
+                  width='400px'
                 />
               </div>
             </div>

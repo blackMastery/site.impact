@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from 'next/link'
 
+
 export default function Layout({ children, title = "Impact Business Solutions", activePath = "/" }) {
   return (
     <>
@@ -55,7 +56,7 @@ export default function Layout({ children, title = "Impact Business Solutions", 
               </a>
             </h1>
             <a href="index.html">
-              <img src="assets/img/logo.png" alt="" className="img-fluid" />
+              <Image src="/static/assets/img/logo.png" alt="" className="img-fluid"  layout='fill'/>
             </a>
           </div>
 
