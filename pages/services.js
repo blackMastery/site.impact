@@ -57,7 +57,7 @@ export default function Services() {
           <div className="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div className="card">
               <div className="card-img">
-                <Image  width="500px" height="350px" src="/assets/img/services-2.jpg" alt="..." width="400px" height="400px" />
+                <Image  width="500px" height="350px" src="/assets/img/services-2.jpg" alt="..."  />
               </div>
               <div className="card-body">
                 <h5 className="card-title"><a href="">MEDIA PRODUCTION</a></h5>
@@ -88,7 +88,7 @@ export default function Services() {
           <div className="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div className="card">
               <div className="card-img">
-                <Image  width="500px" height="350px" src="/assets/img/services-3.jpg" alt="..." width="400px" height="400px"/>
+                <Image  width="500px" height="350px" src="/assets/img/services-3.jpg" alt="..."/>
               </div>
               <div className="card-body">
                 <h5 className="card-title"><a href="">DIGITAL SOLUTIONS</a></h5>
@@ -108,7 +108,7 @@ export default function Services() {
           <div className="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div className="card">
               <div className="card-img">
-                <Image  width="500px" height="350px"  src="/assets/img/services-4.jpg" alt="..." width="400px" height="400px"/>
+                <Image  width="500px" height="350px"  src="/assets/img/services-4.jpg" alt="..." />
               </div>
               <div className="card-body">
                 <h5 className="card-title"><a href="">BUSINESS CONSULTANCY</a></h5>
