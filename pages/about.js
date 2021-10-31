@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Layout title="About IBS">
-      <section id="about" class="about section-bg">
+      <section id="about" className="about section-bg">
       <div className="container">
 
         <div className="row">
