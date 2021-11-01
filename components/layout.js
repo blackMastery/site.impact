@@ -1,24 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Link from 'next/link'
+import Link from "next/link";
+import Script from "next/script";
 
-
-export default function Layout({ children, title = "Impact Business Solutions", activePath = "/" }) {
+export default function Layout({
+  children,
+  title = "Impact Business Solutions",
+  activePath = "/",
+}) {
   return (
     <>
       <Head>
-        <script src="/assets/vendor/jquery/jquery.min.js"></script>
-        <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-        <script src="/assets/vendor/php-email-form/validate.js"></script>
-        <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="/assets/vendor/venobox/venobox.min.js"></script>
-        <script src="/assets/vendor/aos/aos.js"></script>
-
-        <script src="assets/js/main.js"></script>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
         <title>{title}</title>
@@ -50,13 +44,18 @@ export default function Layout({ children, title = "Impact Business Solutions", 
         <div className="container d-flex align-items-center">
           <div className="logo mr-auto">
             <h1 className="text-light">
-              <a href="index.html">
+              <a href="/">
                 Impact Business Solutions
                 <span>.</span>
               </a>
             </h1>
             <a href="index.html">
-              <Image src="/static/assets/img/logo.png" alt="" className="img-fluid"  layout='fill'/>
+              <Image
+                src="/static/assets/img/logo.png"
+                alt=""
+                className="img-fluid"
+                layout="fill"
+              />
             </a>
           </div>
 
@@ -144,6 +143,20 @@ export default function Layout({ children, title = "Impact Business Solutions", 
           </div>
         </div>
       </footer>
+
+      <Script
+        strategy="beforeInteractive"
+        src="/assets/vendor/jquery/jquery.min.js"
+      />
+      <Script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <Script src="/assets/vendor/jquery.easing/jquery.easing.min.js" />
+      <Script src="/assets/vendor/php-email-form/validate.js" />
+      <Script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js" />
+      <Script src="/assets/vendor/owl.carousel/owl.carousel.min.js" />
+      <Script src="/assets/vendor/venobox/venobox.min.js" />
+      <Script src="/assets/vendor/aos/aos.js" />
+
+      <Script src="/assets/js/main.js" />
     </>
   );
 }
