@@ -3,8 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Layout from "../components/layout";
 
-import logo from "../public/assets/img/hero-img.png"
-
+import logo from "../public/assets/img/hero-img.png";
 
 export default function Home() {
   return (
@@ -19,11 +18,14 @@ export default function Home() {
               >
                 <h1>Helping you make your IMPACT</h1>
                 <h2>
-                  We are team of talented designers making websites with
-                  Bootstrap
+                  Save time by letting our “experienced and skilled team” do the
+                  work for you. Using all the right tools with new ideas and
+                  relevant to your industry to get you calculated and measurable
+                  results, so you can focus on the important parts of your
+                  business.
                 </h2>
-                <a href="#about" className="btn-get-started scrollto">
-                  Get Started
+                <a href="/services" className="btn-get-started scrollto">
+                  See Pricing
                 </a>
               </div>
               <div
@@ -36,113 +38,71 @@ export default function Home() {
                   alt="Picture of the author"
                   // layout='fill'
 
-                  height='500px'
-                  width='400px'
+                  height="500px"
+                  width="400px"
                 />
               </div>
             </div>
           </div>
         </section>
-
-
-
-        <section id="pricing" className="pricing section-bg">
-      <div className="container">
-
-        <div className="section-title">
-          <h2 data-aos="fade-in">Pricing</h2>
-          <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div className="row">
-
-
-
-
-          <div className="col-lg-4 box" data-aos="zoom-in">
-            <h3>Basic Package </h3>
-            <ul>
-              <li><i className="bx bx-check"></i> Tailored content strategy  and graphic designs</li>
-              <li><i className="bx bx-check"></i> 
-                Page Optimization
-              </li>
-              <li><i className="bx bx-check"></i> 
-                15 monthly posts
-              </li>
-              <li><i className="bx bx-check"></i> 
-                1 Video Show
-              </li>
-              <li><i className="bx bx-check"></i> 
-                Message and Comment Monitors
-              </li>
-              <li><i className="bx bx-check"></i> 
-                1 Page or Ad boost Est. reach 1.5k-4.4k  people
-              </li>
-              <li><i className="bx bx-check"></i> 
-                Monthly reporting
-              </li>
-            </ul>
+        <section id="about" className="about section-bg">
+          <div className="container">
+            <div className="row">
+              <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+              <div className="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+                <div className="content d-flex flex-column justify-content-center">
+                  <h3 data-aos="fade-in" data-aos-delay="100">
+                    {" "}
+                    About Us
+                  </h3>
+                  <p data-aos="fade-in">Here to help you make an Impact!!!</p>
+                  <div className="row">
+                    <div className="col icon-box" data-aos="fade-up">
+                      <i className="bx bx-receipt"></i>
+                      We work hand in hand with you, using strategies and
+                      methods tailored to suit your business to provide
+                      professional and highly creative result oriented digital
+                      marketing and other related advisory and consulting
+                      services that will assist you by promoting your brand and
+                      reaching a wide range of potential customers to grow your
+                      business.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </section>
 
-          <div className="col-lg-4 box" data-aos="zoom-in">
-            <h3>Standard Package </h3>
-            <ul>
-              <li><i className="bx bx-check"></i> Tailored content strategy  and graphic designs</li>
-              <li><i className="bx bx-check"></i> 
-                Page Optimization
-              </li>
-              <li><i className="bx bx-check"></i> 
-                23 monthly posts
-              </li>
-              <li><i className="bx bx-check"></i> 
-                1 Video Show
-              </li>
-              <li><i className="bx bx-check"></i> 
-                Message and Comment Monitors
-              </li>
-              <li><i className="bx bx-check"></i> 
-                2 Page or Ad boost Est. reach 1.5k-4.4k  people
-              </li>
-              <li><i className="bx bx-check"></i> 
-                Monthly reporting
-              </li>
-            </ul>
+        <section id="about" className="about section-bg">
+          <div className="container">
+            <div className="row">
+              {/* <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div> */}
+              <div className="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+                <div className="content d-flex flex-column justify-content-center">
+                  <h3 data-aos="fade-in" data-aos-delay="100">
+                    {" "}
+                    How it Started
+                  </h3>
+                  {/* <p data-aos="fade-in">Here to help you make an Impact!!!</p> */}
+                  <div className="row">
+                    <div className="col icon-box" data-aos="fade-up">
+                      <i className="bx bx-receipt"></i>
+                      Impact Business Solutions is the brainchild of Ms. Charlyn
+                      Miller, through working in the marketing industry for over
+                      10 years and noting the ever increasing pace of digital
+                      promotions and the rapid request from business to help
+                      them optimize their digital presence she decided to launch
+                      Impact Business Solutions to help businesses make their
+                      IMPACT digitally.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div className="col-lg-4 box featured" data-aos="zoom-in">
-            <span className="featured-badge">Featured</span>
-            <h3>Premium Package</h3>
-            <ul>
-              <li><i className="bx bx-check"></i> 
-                Tailored content strategy  and graphic designs
-              </li>
-              <li><i className="bx bx-check"></i> 
-                Page Optimization
-              </li> 
-              <li><i className="bx bx-check"></i> 
-                31 monthly posts
-              </li> 
-              <li><i className="bx bx-check"></i> 
-              </li>
-              <li><i className="bx bx-check"></i> 
-                1 Video Show
-              </li><li><i className="bx bx-check"></i> 
-                Message and Comment Monitors
-              </li><li><i className="bx bx-check"></i> 
-                3 Page or Ad boost Est. reach 1.5k-4.4k  people
-              </li><li><i className="bx bx-check"></i> 
-                Monthly reporting
-              </li>
-            </ul>
-            <a href="#" className="get-started-btn">Get Started</a>
-          </div>
-
-  
-
-        </div>
-
-      </div>
-    </section>
+        </section>
+        
       </Layout>
     </>
   );

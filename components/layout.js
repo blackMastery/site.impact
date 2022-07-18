@@ -65,21 +65,21 @@ export default function Layout({
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/about">About Us</Link>
+                {/* <Link href="/about">About Us</Link> */}
               </li>
               <li>
                 <Link href="/services">Services</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/websites">Websites</Link>
-              </li>
+              </li> */}
 
               <li>
                 <Link href="/portfolio">Portfolio</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/team">Team</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">Contact Us</Link>
               </li>
