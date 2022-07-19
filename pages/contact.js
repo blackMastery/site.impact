@@ -22,7 +22,7 @@ export default function About() {
                 <div className="info-box" data-aos="fade-up">
                   <i className="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Lot 6 Smyth Street Werk-en-Rust</p>
                 </div>
               </div> 
               <div className="col-md-6">
@@ -38,7 +38,9 @@ export default function About() {
                   <i className="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
                   <p>592 679-2338
-                    <br/>592500-9452
+                    <br/> 592 650 5265
+                    <br/>592 504-3745 
+
                   </p>
                 </div>
               </div>
@@ -47,7 +49,7 @@ export default function About() {
           </div>
 
           <div className="col-lg-6 mt-4 mt-lg-0">
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form w-100" data-aos="fade-up">
+            {/* <form action="forms/contact.php" method="post" role="form" className="php-email-form w-100" data-aos="fade-up">
               <div className="form-row">
                 <div className="col-md-6 form-group">
                   <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -72,7 +74,7 @@ export default function About() {
                 <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div className="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </form> */}
           </div>
 
         </div>

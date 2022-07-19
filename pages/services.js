@@ -11,7 +11,51 @@ export default function Services() {
             <div className="container">
               <div className="section-title">
                 <h2 data-aos="fade-in">Social Media Management</h2>
-                <p data-aos="fade-in"></p>
+                <p
+                  data-aos="fade-in"
+                  style={{
+                    lineHeight: 1.3,
+                  }}
+                >
+                  An effective social media management strategy ensures strong
+                  brand presence on leading platforms and can help a business
+                  grow its customer base and improve sales. Thus a social media
+                  manager or “agency” is integral to any online marketing
+                  strategy. They understand the way people think, act, and
+                  behave because at the very crux of social media are consumers
+                  and by developing strong relationships with them, increases
+                  leads and sales conversion.
+                </p>
+
+                <p
+                  data-aos="fade-in"
+                  style={{
+                    marginTop: "10px",
+                    lineHeight: 1.3,
+                  }}
+                >
+                  Its essential to be consistently updating and engaging with
+                  consumers on social media. A survey shows how consumers expect
+                  a brand to respond to them on social media with in 4 hours.
+                  Not being able to comply with these expectation can lower a
+                  company’s appeal to consumers online. As a result hiring a
+                  social media agency fills that gap. It takes a lot of time and
+                  effort to make sure that your brand stays up-to-date and with
+                  a properly managed real-time response system you dont have to
+                  waste your time scrabbling to get it all done.
+                </p>
+                <p
+                  data-aos="fade-in"
+                  style={{
+                    marginTop: "15px",
+                    fontWeight: 500,
+                    fontSize: "1.3em",
+                  }}
+                >
+                  IBS is that agency that offers you exactly what you need to
+                  make it all happen. <br />
+                  We have several package available for you to choose from.
+                </p>
               </div>
 
               <div className="row">
@@ -139,7 +183,7 @@ export default function Services() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="">DESIGN / BRANDING</a>
+                      <a href="#">DESIGN / BRANDING</a>
                     </h5>
                     <ul className="card-text">
                       <li>Brochure Designs</li>
@@ -172,7 +216,7 @@ export default function Services() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="">MEDIA PRODUCTION</a>
+                      <a href="#">MEDIA PRODUCTION</a>
                     </h5>
 
                     <ul className="card-text">
@@ -206,7 +250,7 @@ export default function Services() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="">DIGITAL SOLUTIONS</a>
+                      <a href="#">DIGITAL SOLUTIONS</a>
                     </h5>
 
                     <ul className="card-text">
@@ -237,7 +281,7 @@ export default function Services() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">
-                      <a href="">BUSINESS CONSULTANCY</a>
+                      <a href="#">BUSINESS CONSULTANCY</a>
                     </h5>
                     <ul className="card-text">
                       <li>Business Plans</li>

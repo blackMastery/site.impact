@@ -49,14 +49,12 @@ export default function Layout({
                 <span>.</span>
               </a>
             </h1>
-            <a href="index.html">
               <Image
                 src="/static/assets/img/logo.png"
                 alt=""
                 className="img-fluid"
                 layout="fill"
               />
-            </a>
           </div>
 
           <nav className="nav-menu d-none d-lg-block">
@@ -64,9 +62,7 @@ export default function Layout({
               <li className="active">
                 <Link href="/">Home</Link>
               </li>
-              <li>
-                {/* <Link href="/about">About Us</Link> */}
-              </li>
+              <li>{/* <Link href="/about">About Us</Link> */}</li>
               <li>
                 <Link href="/services">Services</Link>
               </li>

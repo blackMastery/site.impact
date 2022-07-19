@@ -10,22 +10,33 @@ export default function About() {
           <div className="container">
             <div className="section-title">
               <h2>Portfolio</h2>
-              <p>
+              <p
+                style={{
+                  lineHeight: 1.3,
+                }}
+              >
                 We strive to provide professional and highly creative result
                 oriented marketing and other related advisory and consulting
-                services that will assist businesses in promoting t solutions
-                sees ourselves as one of the premier marketing and consultancy
+                services that will assist businesses in promoting solutions. 
+                We sees ourselves as one of the premier marketing and consultancy
                 agency that provides a higher level of professional services to
                 small and medium scale businesses, helping them to make an
-                impact in their respective industries. We not only provide a
-                wide range of services to aid you in improving your business and
-                its presence on multiple social media platforms, which include
-                but not limited to facebook, instagram and other social mediam,
-                traditional promotion and branding; and all members of our
-                skilled and experienced team will work to create a plan design
-                to fit the specific needs of your business, down to the last
-                detail to help you gain a better click conversion to make profit
-                for your business
+                impact in their respective industries.
+              </p>
+              <p
+                style={{
+                  marginTop: "10px",
+                  lineHeight: 1.3,
+                }}
+              >
+                We not only provide a wide range of services to aid you in
+                improving your business and its presence on multiple social
+                media platforms, which include but not limited to facebook,
+                instagram and other social mediam, traditional promotion and
+                branding; and all members of our skilled and experienced team
+                will work to create a plan design to fit the specific needs of
+                your business, down to the last detail to help you gain a better
+                click conversion to make profit for your business
               </p>
             </div>
 
@@ -62,7 +73,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -85,7 +96,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -108,7 +119,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -131,7 +142,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -154,7 +165,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -177,7 +188,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -200,7 +211,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -246,7 +257,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -269,7 +280,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
@@ -292,7 +303,7 @@ export default function About() {
                     >
                       <i className="bx bx-plus"></i>
                     </a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a href="#" title="More Details">
                       <i className="bx bx-link"></i>
                     </a>
                   </div>
